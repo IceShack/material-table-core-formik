@@ -1,6 +1,6 @@
-# Material Table Formik with Dialogs
+# Material Table Formik with Dialogs (cloned from [material-table-formik](https://github.com/Domino987/material-table-formik))
 
-This package is a simple wrapper for [material-table](https://github.com/mbrn/material-table).
+This package is a simple wrapper for [@material-table/core](https://github.com/material-table-core/core).
 
 It displays dialogs instead of the inline edit for the Add, Update and Delete actions.
 
@@ -20,16 +20,16 @@ gridProps: { xs: 12, md: 6 }
 
 ## Requirement
 
-To use material-table-formik, you must use react@16.8.0 or greater which includes hooks.
+To use material-table-core-formik, you must use react@16.8.0 or greater which includes hooks.
 
 ## Installation
 
-This package is distributed via [npm](https://www.npmjs.com/package/material-table-formik).
+This package is distributed via [npm](https://www.npmjs.com/package/material-table-core-formik).
 
 ```
-$ yarn add material-table-formik
+$ yarn add material-table-core-formik
 # or
-$ npm install --save material-table-formik
+$ npm install --save material-table-core-formik
 ```
 
 ## Getting Started
@@ -37,13 +37,13 @@ $ npm install --save material-table-formik
 Simply exchange the material table import:
 
 ```
-import MaterialTable from "material-table";
+import MaterialTable from "@material-table/core";
 ```
 
 with
 
 ```
-import MaterialTable from "material-table-formik";
+import MaterialTable from "material-table-core-formik";
 ```
 
 This will display the edit/update/delete action in a separate dialog instead inline.
@@ -62,6 +62,7 @@ In addition to the material table props, it also accepts these optional props:
 ## Author
 
 - [Dominik Engel](https://github.com/Domino987)
+- [Moritz Schroeder](https://github.com/IceShack)
 
 This project follows the all-contributors specification. Contributions of any kind welcome!
 

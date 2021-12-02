@@ -1,9 +1,9 @@
 {
-  "version": "0.2.4",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "homepage": "https://github.com/Domino987/material-table-formik",
+  "homepage": "https://github.com/IceShack/material-table-core-formik",
   "files": [
     "dist"
   ],
@@ -28,20 +28,23 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "material-table-formik",
-  "author": "Dominik Engel",
+  "name": "material-table-core-formik",
+  "author": "Moritz Schroeder",
+  "contributors": [
+    "Dominik Engel"
+  ],
   "keywords": [
-    "material-table",
+    "@material-table",
     "@material-ui",
     "react",
     "formik",
     "YUP"
   ],
-  "description": "A material-table wrapper to display a dialog for add, edit and delete. It also allows Formik/YUP validation.",
-  "module": "dist/material-table-formik.esm.js",
+  "description": "A @material-table/core wrapper to display a dialog for add, edit and delete. It also allows Formik/YUP validation.",
+  "module": "dist/material-table-core-formik.esm.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Domino987/material-table-formik.git"
+    "url": "git://github.com/IceShack/material-table-core-formik.git"
   },
   "devDependencies": {
     "@types/jest": "^26.0.13",
@@ -56,9 +59,9 @@
     "typescript": "^4.0.2"
   },
   "dependencies": {
-    "@date-io/core": "^2.9.0",
-    "@material-ui/core": "^4.11.0",
-    "formik": "^2.1.5",
-    "material-table": "^1.69.0"
+    "@date-io/core": "^1.3.13",
+    "@material-table/core": "^4.3.11",
+    "@material-ui/core": "^4.11.2",
+    "formik": "^2.1.5"
   }
 }
